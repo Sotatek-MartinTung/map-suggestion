@@ -1,70 +1,48 @@
-# Getting Started with Create React App
+# Map Suggestion App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Link: https://map-suggestion-l7y92jvs0-sotatek-martintung.vercel.app
 
-## Available Scripts
+## Installation and Usage
 
-In the project directory, you can run:
+#### Initial Setup
 
-### `npm start`
+1.  Create a `.env` file in the project root using env-sample
+2.  Run the commmand
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+```
+npm install
+```
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+#### Development
 
-### `npm test`
+```
+$ npm start
+```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+#### Tests
 
-### `npm run build`
+Unit tests:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```
+$ npm test
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Descriptions
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+#### Problems
 
-### `npm run eject`
+We need to find a public API that has return proper data, a library to show google map on the app and a framework that can help me build the good UI
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+#### Solution
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+I choose `foursquare`, `google-map-react`, `reactstrap`
+<br />
+Foursquare is a location data platform and provide me public apis
+<br />
+google-map-react to show google map on the app. It is a good library and easy to custom
+<br />
+reactstrap to do UI framework. it has many components and utility CSS classes that help me build the app fast
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## My proflie
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<br />
