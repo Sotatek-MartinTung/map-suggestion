@@ -29,6 +29,10 @@ const Venues = ({ venues, activeId, onClick }) =>
 
 export default React.memo(Venues);
 
+Venues.defaultProps = {
+  onClick: () => {},
+};
+
 Venues.propTypes = {
   venues: PropTypes.array,
   activeId: PropTypes.string,
